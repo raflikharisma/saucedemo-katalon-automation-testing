@@ -1,0 +1,55 @@
+# === KATALON PROJECT IGNORE ===
+
+# Generated test execution reports
+Reports/
+report/
+reports/
+output/
+
+# Logs & temp
+console.log
+execution.properties
+test_case_*.log
+*.log
+
+# Build output folders
+bin/
+Libs/
+Drivers/
+.classpath
+.project
+.settings/
+
+# Local environment settings
+.settings/
+katalon.properties
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# System files (Windows/Mac)
+~$*
+*.tmp
+*.swp
+
+# Test data / backups (optional)
+Data Files/*.xlsx
+Data Files/*.csv
+*.bak
+
+# IDE specific
+.idea/
+.vscode/
+
+# Node / npm (if you mix Katalon with JS project)
+node_modules/
+package-lock.json
+
+# Encrypted credentials or environment secrets (optional)
+*.env
+*.key
+*.pem
+*.crt

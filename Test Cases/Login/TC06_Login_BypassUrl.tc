@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Login_BypassUrl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df7a6dd1-566c-43d3-8f8d-6806c049222b</testCaseGuid>
+</TestCaseEntity>
