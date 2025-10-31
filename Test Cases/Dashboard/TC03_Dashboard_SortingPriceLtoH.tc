@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Dashboard_SortingPriceLtoH</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5357fc6c-1300-47b0-b289-640c797a398c</testCaseGuid>
+</TestCaseEntity>

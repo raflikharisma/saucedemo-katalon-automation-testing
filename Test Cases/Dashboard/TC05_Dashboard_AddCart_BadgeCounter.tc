@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Dashboard_AddCart_BadgeCounter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3bd58d8-d588-428a-aede-2d55f015bc09</testCaseGuid>
+</TestCaseEntity>

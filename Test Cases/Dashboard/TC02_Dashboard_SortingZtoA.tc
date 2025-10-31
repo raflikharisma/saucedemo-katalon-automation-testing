@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Dashboard_SortingZtoA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7952b3c4-4dab-4b73-8b83-3421b662fe22</testCaseGuid>
+</TestCaseEntity>

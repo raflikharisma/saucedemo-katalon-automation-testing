@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Dashboard_VerifyCart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f86c1c35-7d2e-46c2-9f41-d1b9ea652bc1</testCaseGuid>
+</TestCaseEntity>

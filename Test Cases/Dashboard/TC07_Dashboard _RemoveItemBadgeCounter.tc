@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Dashboard _RemoveItemBadgeCounter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24f5e4fe-f8a8-46f2-8ebf-49e676782220</testCaseGuid>
+</TestCaseEntity>
