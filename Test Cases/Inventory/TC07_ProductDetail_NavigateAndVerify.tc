@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ProductDetail_NavigateAndVerify</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>567c33b4-61f1-4d32-b3db-0655881c2c70</testCaseGuid>
+</TestCaseEntity>

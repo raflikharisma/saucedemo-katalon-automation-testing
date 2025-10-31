@@ -18,34 +18,39 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-// untuk dynamic selector & counting
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.WebElement
+import internal.GlobalVariable as GlobalVariable
+
 
 WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.baseURL)
-
 WebUI.waitForElementVisible(findTestObject('Page_Login/input_username'), 10)
 WebUI.setText(findTestObject('Page_Login/input_username'), GlobalVariable.username)
 WebUI.setEncryptedText(findTestObject('Page_Login/input_password'), GlobalVariable.password)
 WebUI.click(findTestObject('Page_Login/login_button'))
+
 WebUI.waitForElementVisible(findTestObject('Page_Inventory/dropdown_sorting'), 10)
-WebUI.click(findTestObject('Page_Inventory/button_add-to-cart-sauce-labs-backpack'))
-WebUI.click(findTestObject('Page_Inventory/button_add-to-cart-sauce-labs-bike-light'))
-WebUI.waitForElementVisible(findTestObject('Page_Inventory/cart_badge'), 5)
-String badge = WebUI.getText(findTestObject('Page_Inventory/cart_badge'))
-WebUI.verifyMatch(badge, '2', false)
-WebUI.comment("✅ 2 item berhasil ditambahkan ke cart (badge = ${badge})")
-WebUI.click(findTestObject('Page_Inventory/cart_badge'))
+WebUI.waitForElementClickable(findTestObject('Page_Inventory/dropdown_sorting'), 10)
+WebUI.selectOptionByValue(findTestObject('Page_Inventory/dropdown_sorting'), 'za', false)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Page_Cart/item_Sauce Labs Backpack'), 5)
-WebUI.verifyElementPresent(findTestObject('Page_Cart/item_Sauce Labs Bike Light'), 5)
 
-TestObject cartItems = new TestObject().addProperty('css', ConditionType.EQUALS, '.cart_item')
-int count = WebUiCommonHelper.findWebElements(cartItems, 10).size()
-assert count == 2 : "Jumlah item di cart salah, actual: ${count}"
-
+TestObject nameObj = new TestObject().addProperty('css', ConditionType.EQUALS, '.inventory_item_name')
+List<WebElement> items = WebUiCommonHelper.findWebElements(nameObj, 10)
+List<String> actual = items.collect { it.getText().trim() }
+List<String> expected = new ArrayList<>(actual)
+expected.sort(String.CASE_INSENSITIVE_ORDER)
+expected = expected.reverse()
+assert actual == expected : "❌ Sorting Z→A salah!\nActual: ${actual}\nExpected: ${expected}"
+WebUI.comment("✅ Sorting Z→A OK: ${actual}")
+WebUI.click(findTestObject('Page_Inventory/burger_button'))
+WebUI.waitForElementClickable(findTestObject('Page_Inventory/logout_button'), 5)
+WebUI.click(findTestObject('Page_Inventory/logout_button'))
+WebUI.waitForElementVisible(findTestObject('Page_Login/input_username'), 10)
 WebUI.closeBrowser()
