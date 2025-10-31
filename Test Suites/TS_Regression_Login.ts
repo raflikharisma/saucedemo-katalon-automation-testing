@@ -15,49 +15,49 @@
       <guid>40fb29c1-149f-4ce4-a776-14cf5fc4210e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC01_Login_Valid</testCaseId>
+      <testCaseId>Test Cases/Login/TC01_Login_ValidCredentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>173333e1-5144-4b58-b534-15ffc51f3f9e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC02_Login_Invalid</testCaseId>
+      <testCaseId>Test Cases/Login/TC02_Login_InvalidCredentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cf355d33-feb4-46e5-a47c-dbd7d956459b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC03_Login_UsernameEmpty</testCaseId>
+      <testCaseId>Test Cases/Login/TC03_Login_EmptyUsername</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>69aebee4-6de1-491c-9b91-a82bcff60822</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC04_Login_PasswordEmpty</testCaseId>
+      <testCaseId>Test Cases/Login/TC04_Login_EmptyPassword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>93d7b8d4-8ec4-4c2c-a6f6-95333d7dc160</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC05_Login_EmptyForm</testCaseId>
+      <testCaseId>Test Cases/Login/TC05_Login_AllFieldsEmpty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8b3388e6-ea3b-4f3a-b89a-0b3952875bb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC06_Login_BypassUrl</testCaseId>
+      <testCaseId>Test Cases/Login/TC06_Login_BypassDashboardUrl</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>eca3b619-b014-47b2-b14d-37682c3326cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC07_Login_LogoutFlow</testCaseId>
+      <testCaseId>Test Cases/Login/TC07_Login_LogoutSuccessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

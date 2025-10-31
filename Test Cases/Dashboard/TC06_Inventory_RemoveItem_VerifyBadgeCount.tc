@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC07_Dashboard _RemoveItemBadgeCounter</name>
+   <name>TC06_Inventory_RemoveItem_VerifyBadgeCount</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

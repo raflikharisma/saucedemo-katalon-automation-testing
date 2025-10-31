@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC05_Dashboard_AddCart_BadgeCounter</name>
+   <name>TC03_Login_EmptyUsername</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e3bd58d8-d588-428a-aede-2d55f015bc09</testCaseGuid>
+   <testCaseGuid>d4471048-d142-4c23-85af-49b3e07184c0</testCaseGuid>
 </TestCaseEntity>

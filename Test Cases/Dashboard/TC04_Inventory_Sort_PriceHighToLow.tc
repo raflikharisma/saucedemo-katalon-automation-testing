@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Cart _ContinueShopping</name>
+   <name>TC04_Inventory_Sort_PriceHighToLow</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>044c0229-736e-4db6-a56f-d215e66fdbbe</testCaseGuid>
+   <testCaseGuid>4eedeb0e-877e-4326-af1d-2db3a4424629</testCaseGuid>
 </TestCaseEntity>

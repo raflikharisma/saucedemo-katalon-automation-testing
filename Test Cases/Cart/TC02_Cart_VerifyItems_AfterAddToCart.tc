@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_Login_PasswordEmpty</name>
+   <name>TC02_Cart_VerifyItems_AfterAddToCart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>119447ab-105b-4778-9a6c-b190e6f6e8d9</testCaseGuid>
+   <testCaseGuid>f86c1c35-7d2e-46c2-9f41-d1b9ea652bc1</testCaseGuid>
 </TestCaseEntity>

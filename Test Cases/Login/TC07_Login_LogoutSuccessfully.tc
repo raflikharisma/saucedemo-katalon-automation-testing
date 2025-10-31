@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Login_Valid</name>
+   <name>TC07_Login_LogoutSuccessfully</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a80badef-7a7d-4e94-9de8-74e6d4c6c6d5</testCaseGuid>
+   <testCaseGuid>e7b2c1af-ce30-4d8f-8145-a0818b5e7105</testCaseGuid>
 </TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC05_Login_EmptyForm</name>
+   <name>TC05_Inventory_AddItems_VerifyBadgeCount</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>bfb77848-320a-4916-98a6-e41a7c4e8263</testCaseGuid>
+   <testCaseGuid>e3bd58d8-d588-428a-aede-2d55f015bc09</testCaseGuid>
 </TestCaseEntity>
