@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Checkout_NavigateURL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e539e0f-f3fd-4aa7-91fc-710cbae937d0</testCaseGuid>
+</TestCaseEntity>

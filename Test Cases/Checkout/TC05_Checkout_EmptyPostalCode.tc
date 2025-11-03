@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Checkout_EmptyPostalCode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7905c52-2bf7-4f2b-aa1f-b6a0daac4162</testCaseGuid>
+</TestCaseEntity>

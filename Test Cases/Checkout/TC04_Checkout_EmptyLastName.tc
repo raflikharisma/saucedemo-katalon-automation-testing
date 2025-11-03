@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Checkout_EmptyLastName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b30ef25-c73e-4f5d-9753-5b4aad6ee1ff</testCaseGuid>
+</TestCaseEntity>

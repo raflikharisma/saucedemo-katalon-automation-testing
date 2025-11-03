@@ -23,7 +23,7 @@ String selectedProductName = WebUI.getText(findTestObject('Page_Inventory/produc
 WebUI.comment("🛒 Produk yang diklik: ${selectedProductName}")
 
 WebUI.click(findTestObject('Page_Inventory/product_sauce-labs-backpack'))
-WebUI.waitForElementVisible(findTestObject('Page_Inventory/link_backtoproducts'), 10)
+WebUI.waitForElementVisible(findTestObject('Page_Cart/link_backtoproducts'), 10)
 WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory-item\\.html(\\?.*)?$', true)
 WebUI.comment('✅ Redirect ke halaman product detail berhasil')
 
@@ -36,7 +36,7 @@ WebUI.comment("✅ Nama produk sesuai: ${detailProductName}")
 WebUI.verifyElementPresent(findTestObject('Page_Inventory/header_product_detail'), 5)
 WebUI.comment('✅ Halaman detail lengkap & siap digunakan')
 
-WebUI.click(findTestObject('Page_Inventory/link_backtoproducts'))
+WebUI.click(findTestObject('Page_Cart/link_backtoproducts'))
 WebUI.waitForElementVisible(findTestObject('Page_Inventory/burger_button'), 10)
 WebUI.click(findTestObject('Page_Inventory/burger_button'))
 WebUI.waitForElementClickable(findTestObject('Page_Inventory/logout_button'), 5)

@@ -6,12 +6,12 @@
    <elementGuidId>8fd1eba6-0b1b-4dbb-9d38-4405cdfe1e2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cart_contents_container']/div/div/div[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.cart_item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cart_contents_container']/div/div/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>861aaca8-bc5a-4a72-948e-b3989b3c02a7</webElementGuid>
+      <webElementGuid>bc41259a-b95b-450b-9acc-ecf8c83de517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cart_item</value>
-      <webElementGuid>11935147-8a61-416a-8a5b-5b5e22c2acf4</webElementGuid>
+      <webElementGuid>6cc97dfc-23fe-496b-aa17-5523de40713c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>inventory-item</value>
-      <webElementGuid>ad170c8a-82e2-44da-a8ca-d7b4b6daf462</webElementGuid>
+      <webElementGuid>934cd3d1-c343-496a-b385-53b93a572d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1Sauce Labs Backpackcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.$29.99Remove</value>
-      <webElementGuid>15f11616-a274-4156-926e-306df40dd571</webElementGuid>
+      <webElementGuid>a8cab970-5125-4abb-b1d5-694290d4c28c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cart_contents_container&quot;)/div[1]/div[@class=&quot;cart_list&quot;]/div[@class=&quot;cart_item&quot;]</value>
-      <webElementGuid>c97a3b91-2c92-4918-833a-cadb20216d16</webElementGuid>
+      <webElementGuid>6f378294-63f0-4403-9641-8d7bc6ebbb2c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cart_contents_container']/div/div/div[3]</value>
-      <webElementGuid>4649a32a-2f8e-4aa4-a5f4-13dd21d8ea98</webElementGuid>
+      <webElementGuid>83d2beb4-98aa-44f6-ab18-dd4adb64b228</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::div[1]</value>
-      <webElementGuid>3643a2ce-ac3f-4690-b91b-4718ff921212</webElementGuid>
+      <webElementGuid>cfa21b71-c280-4681-8cc0-2c814e2c87a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='QTY'])[1]/following::div[2]</value>
-      <webElementGuid>52dd6973-1a53-42a5-a2b4-993378476487</webElementGuid>
+      <webElementGuid>e721e22e-6115-4d6c-89d3-2560dbf5309e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[3]</value>
-      <webElementGuid>46056fba-11de-4f47-a46f-9ca35e623877</webElementGuid>
+      <webElementGuid>c6448c05-22d6-4382-a527-dd78ade39609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '1Sauce Labs Backpackcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.$29.99Remove' or . = '1Sauce Labs Backpackcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.$29.99Remove')]</value>
-      <webElementGuid>337cea4c-a291-4ba4-91d7-cf1a158b6ad5</webElementGuid>
+      <webElementGuid>f0b79e3f-95fb-4861-9248-a5f4c5fa2220</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

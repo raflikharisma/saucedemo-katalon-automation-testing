@@ -6,12 +6,12 @@
    <elementGuidId>c1f2e5d9-ae7c-4bed-a484-87bb7e15b1b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='continue-shopping']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#continue-shopping</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='continue-shopping']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9d6242b7-3d06-4d1a-b355-9d0c5fd228e3</webElementGuid>
+      <webElementGuid>18f8e241-d513-4fe2-a786-872e09799a09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn_secondary back btn_medium</value>
-      <webElementGuid>351fd796-d2b3-44a2-84b4-ebb3cd21429f</webElementGuid>
+      <webElementGuid>4e623f9c-1571-4680-9bc5-8d8b803fdf1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>continue-shopping</value>
-      <webElementGuid>e0185030-5cd8-4f1c-be47-a7c1f1b88915</webElementGuid>
+      <webElementGuid>a4d7e4f4-6616-4c89-819b-8971e3e399cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>continue-shopping</value>
-      <webElementGuid>9a70d9ac-3f8a-48cb-8efa-bae1d3094a71</webElementGuid>
+      <webElementGuid>a85ed3ce-cc43-418d-b902-99cd410a2436</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>continue-shopping</value>
-      <webElementGuid>a236ab4f-ab26-46ca-8279-aa14ce068463</webElementGuid>
+      <webElementGuid>75aaf661-c4c5-4f84-a3e8-582f57cd19fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue Shopping</value>
-      <webElementGuid>344df967-40bc-468f-a6d8-20c9b51c3fb2</webElementGuid>
+      <webElementGuid>feeb6ee0-f3dd-4745-937f-672261a1d1b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;continue-shopping&quot;)</value>
-      <webElementGuid>def9f1e2-d02d-4a4b-b211-bb5301ed1a9f</webElementGuid>
+      <webElementGuid>c3c9794b-4f9f-40cc-85da-f3b1cf905c61</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='continue-shopping']</value>
-      <webElementGuid>7300eba8-6c87-4aed-9e78-3f9b7c7e4b39</webElementGuid>
+      <webElementGuid>0678d025-84b3-44f9-a9b3-284cdaace987</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cart_contents_container']/div/div[2]/button</value>
-      <webElementGuid>fd85d835-970d-43b8-85ca-34ce9d9d5cfd</webElementGuid>
+      <webElementGuid>29ec206c-5048-48d2-a180-b86d22ebe27e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[2]/following::button[1]</value>
-      <webElementGuid>aa82c6a9-4e3a-491b-a83b-b1f4115ca1a0</webElementGuid>
+      <webElementGuid>f047cbda-ffac-4007-ae99-a57a0e49b178</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$9.99'])[1]/following::button[2]</value>
-      <webElementGuid>cb1198b9-81ac-4c49-becd-45b760529f63</webElementGuid>
+      <webElementGuid>7319840c-0637-46b1-b217-a6cefaa5d611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::button[1]</value>
-      <webElementGuid>2847a42d-a319-482d-92b9-101cd79b4bc7</webElementGuid>
+      <webElementGuid>9f50e12c-3a37-4afb-9eac-96a6fd26d9f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[2]</value>
-      <webElementGuid>395e4364-0942-47c1-98b5-d71bf9d1d57e</webElementGuid>
+      <webElementGuid>c64640de-99a1-47b8-9b4d-5dbb52a53ba6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continue Shopping']/parent::*</value>
-      <webElementGuid>90331ff5-07b0-4fb4-b48c-6b386ac9824e</webElementGuid>
+      <webElementGuid>103568d7-0832-4593-969a-043c6ec515c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>0cb55770-ef16-481b-9c35-0b28dd70d392</webElementGuid>
+      <webElementGuid>08cb208b-be95-4c9d-a4b9-c886091a21af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'continue-shopping' and @name = 'continue-shopping' and (text() = 'Continue Shopping' or . = 'Continue Shopping')]</value>
-      <webElementGuid>b91af623-8d8a-4940-997c-07624df6b22b</webElementGuid>
+      <webElementGuid>82ba1df3-750a-4abe-b215-732d3c192be3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
