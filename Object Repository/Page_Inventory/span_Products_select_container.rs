@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2062e716-2032-40c4-8b16-30cb44f1c493</webElementGuid>
+      <webElementGuid>571c3418-4715-45e4-9b20-873e95a5ebbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select_container</value>
-      <webElementGuid>e8743a54-60a2-4687-83fe-fea115a53d40</webElementGuid>
+      <webElementGuid>9f3ffb6e-b062-4a14-84d3-a13c5908439a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)</value>
-      <webElementGuid>cdc7e26c-6328-4856-af54-63881956cf91</webElementGuid>
+      <webElementGuid>d00cdd6f-db6c-4a55-8d52-9f4ece3973a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header_container&quot;)/div[@class=&quot;header_secondary_container&quot;]/div[@class=&quot;right_component&quot;]/span[@class=&quot;select_container&quot;]</value>
-      <webElementGuid>670a2290-721f-454b-a465-eeb314c8582e</webElementGuid>
+      <webElementGuid>71a8a50b-54c2-4c40-b642-04f672cfae55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header_container']/div[2]/div/span</value>
-      <webElementGuid>2e4e7692-aed4-4017-a6b8-5e676ed8e24d</webElementGuid>
+      <webElementGuid>74bf735e-a0e8-4312-8a0a-757fb90dea34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::span[1]</value>
-      <webElementGuid>388a6285-2581-4252-8c08-0a1d997a94e6</webElementGuid>
+      <webElementGuid>4abe5489-60c5-4a1a-a1b6-272920838e83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::span[2]</value>
-      <webElementGuid>6418ee93-ff5e-44df-9fa0-f6b5727e99f7</webElementGuid>
+      <webElementGuid>ebb247e9-81c0-4e89-a27e-e0e256836031</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/preceding::span[2]</value>
-      <webElementGuid>fbc0e0ae-5f5b-48d0-bb10-3e879d1d336e</webElementGuid>
+      <webElementGuid>e4746339-b5c4-46c8-8959-b604c5a224d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span</value>
-      <webElementGuid>2c59e67c-f29f-476d-8a38-b343d7bd21bf</webElementGuid>
+      <webElementGuid>b042239a-7d5d-4544-9fd1-a3c58c26b4c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
-      <webElementGuid>1d0ceb1d-b59b-473c-9777-814d9444405f</webElementGuid>
+      <webElementGuid>4f61f493-f8b4-4e43-a6c8-7756b77886e7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

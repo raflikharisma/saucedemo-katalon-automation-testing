@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_SearchSimulation</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>13a840a0-27a4-4513-94be-99685be8c8c8</testSuiteGuid>
+   <testCaseLink>
+      <guid>02480c6f-26e8-4efc-bb0f-b3b760261d74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>a2093f1d-094a-47ec-85f9-4cb0367bd792</id>
+         <masked>false</masked>
+         <name>searchkeyword</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Dynamic/TC01_Dynamic_SearchSimulation_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5dcd6f40-3c00-42bb-ba4a-8c3e6d02ad50</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ProductSearchData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5dcd6f40-3c00-42bb-ba4a-8c3e6d02ad50</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>searchkeyword</value>
+         <variableId>a2093f1d-094a-47ec-85f9-4cb0367bd792</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dcd6f40-3c00-42bb-ba4a-8c3e6d02ad50</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedfound</value>
+         <variableId>ff30bd0d-a1b5-4283-95d9-7c5b3b176a56</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

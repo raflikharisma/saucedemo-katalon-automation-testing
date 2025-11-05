@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e5b9020a-d07b-428a-b5ee-513e6c41b35a</webElementGuid>
+      <webElementGuid>2a30a832-85f3-492f-8962-9c449d496ac8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn_primary btn_small btn_inventory</value>
-      <webElementGuid>5dc9fdf5-9773-4abd-a23a-f1bef63ceb90</webElementGuid>
+      <webElementGuid>83bb4e16-0c04-4a40-b1be-8423c3753d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>add-to-cart</value>
-      <webElementGuid>4b2e04b6-640e-4443-b821-24ae1a6a4a38</webElementGuid>
+      <webElementGuid>82b4832d-bd52-4e63-b8f8-47620fb372d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>add-to-cart</value>
-      <webElementGuid>356d16fc-f040-4354-906d-bff74671af64</webElementGuid>
+      <webElementGuid>f33aa946-88f7-4529-81fe-da83a7b76f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>add-to-cart</value>
-      <webElementGuid>7a0012cf-7861-46a5-bca0-58ab8d0ebbbc</webElementGuid>
+      <webElementGuid>bdb4026b-b5bf-43fa-a3ff-d706e4f6f52c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add to cart</value>
-      <webElementGuid>6a0b6166-efc2-4f90-af7c-d3e396be255d</webElementGuid>
+      <webElementGuid>cb08b592-1705-4ccc-9941-7845f72e1778</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;add-to-cart&quot;)</value>
-      <webElementGuid>e186778c-b6cd-4670-86ed-bcd63661121a</webElementGuid>
+      <webElementGuid>077a5c0f-18bf-469e-9f9d-6f325c2fa2f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='add-to-cart']</value>
-      <webElementGuid>7069de77-5eef-48b9-97fb-5c7fc45e0f01</webElementGuid>
+      <webElementGuid>3c1b09b6-9e33-4d7c-bf0f-1e3906c21f49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='inventory_item_container']/div/div/div[2]/button</value>
-      <webElementGuid>9f2a77f5-6498-4d70-9c17-9b6e9a5a988e</webElementGuid>
+      <webElementGuid>7138564a-5816-418c-a341-0e83cf82bf46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$29.99'])[1]/following::button[1]</value>
-      <webElementGuid>d4c6032b-c152-41e3-bbeb-3b4eb594bd2a</webElementGuid>
+      <webElementGuid>8b885dff-15d4-4c90-842c-204430f5aef6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/following::button[1]</value>
-      <webElementGuid>adce7d54-a59e-42d7-8fc8-c8589439dcb1</webElementGuid>
+      <webElementGuid>b44d1ea7-0aff-47a7-9d8d-344426206b98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::button[1]</value>
-      <webElementGuid>62cc05c0-5bef-42d9-9403-9e921e97f382</webElementGuid>
+      <webElementGuid>1f7373f6-8fa8-4978-a83d-5e6e59318429</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::button[1]</value>
-      <webElementGuid>b6d20a22-3698-4c91-8fae-20b15cf4f266</webElementGuid>
+      <webElementGuid>82682ad9-253d-46de-9239-88a60aa0082c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add to cart']/parent::*</value>
-      <webElementGuid>021511ed-eda9-43d9-a2ed-91409a68ba32</webElementGuid>
+      <webElementGuid>cf337aef-e0d6-482a-9738-53a8eb39b278</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>481e9bea-5f2a-4e19-9c43-75b6b11fb05a</webElementGuid>
+      <webElementGuid>ac5a71a6-1309-4109-80ce-24bc88793ef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'add-to-cart' and @name = 'add-to-cart' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
-      <webElementGuid>2be0b8d8-af03-4dc3-8608-2f1101f55261</webElementGuid>
+      <webElementGuid>c643bad1-8927-4991-b266-c9af8ee41e42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

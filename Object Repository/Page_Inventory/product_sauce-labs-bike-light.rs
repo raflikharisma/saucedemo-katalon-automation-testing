@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e16af1c3-f3af-4295-bd3c-05fb0f160292</webElementGuid>
+      <webElementGuid>871eb34e-b641-41cb-aabe-6e83312a66eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_name </value>
-      <webElementGuid>00347094-d89e-49f3-b16c-e65c275817a2</webElementGuid>
+      <webElementGuid>ec058701-a87b-4403-9e13-22ed16b67fb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>inventory-item-name</value>
-      <webElementGuid>1a3c8cb7-c444-48da-9504-79548f08162c</webElementGuid>
+      <webElementGuid>487616d6-7e1e-4c13-b372-27b8f7678341</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sauce Labs Bike Light</value>
-      <webElementGuid>fc33bf5a-717e-4949-9096-d1efe09a6d42</webElementGuid>
+      <webElementGuid>b04dac2b-a9da-49e3-97c6-34e918f8fc3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;item_0_title_link&quot;)/div[@class=&quot;inventory_item_name&quot;]</value>
-      <webElementGuid>a2eccede-4b20-40e2-b507-731919dc791c</webElementGuid>
+      <webElementGuid>e830e940-8577-478d-abee-3648ccf3f53f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='item_0_title_link']/div</value>
-      <webElementGuid>9932193a-c342-43d8-bc7c-e55ec1dd6ff5</webElementGuid>
+      <webElementGuid>03894087-71a4-4bef-aee0-1a7dd02f7c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/following::div[5]</value>
-      <webElementGuid>cce1c9c5-7b4a-4ea9-a96d-dfcb79a6d8a6</webElementGuid>
+      <webElementGuid>bf99df6e-93c9-42b6-8c75-40b3d938e15c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$29.99'])[1]/following::div[5]</value>
-      <webElementGuid>a0288125-56d9-4c2a-a336-b132bf487d4e</webElementGuid>
+      <webElementGuid>0a46c655-6365-454c-9368-243f4b1d99d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$9.99'])[1]/preceding::div[2]</value>
-      <webElementGuid>e50b90b1-a804-4b68-9f0d-3b5fc29b43a0</webElementGuid>
+      <webElementGuid>a806db4e-3e2b-4e25-be3f-e0fdcbf71284</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[2]/preceding::div[3]</value>
-      <webElementGuid>cfd4ea13-e0ab-4e61-afa1-554188aaa79b</webElementGuid>
+      <webElementGuid>6b38f642-77b3-4b22-9c20-32e151df963a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sauce Labs Bike Light']/parent::*</value>
-      <webElementGuid>97eb79f0-b9ae-4399-96ef-549f3784b4dc</webElementGuid>
+      <webElementGuid>8be81465-fbc6-4f84-833e-8faa53c121ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/a/div</value>
-      <webElementGuid>25da8314-0b3b-465b-9b7e-4dd4e4190bd8</webElementGuid>
+      <webElementGuid>36c3d4e4-5b0e-4c0e-83b2-b9bfab0d9d04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Sauce Labs Bike Light' or . = 'Sauce Labs Bike Light')]</value>
-      <webElementGuid>df055c21-bed2-4460-a937-c48ca962bd76</webElementGuid>
+      <webElementGuid>df489ae5-3f10-419c-b0ed-e9254a49b0da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

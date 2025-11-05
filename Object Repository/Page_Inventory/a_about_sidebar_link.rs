@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>logout_button</name>
+   <name>a_about_sidebar_link</name>
    <tag></tag>
-   <elementGuidId>08ab6e99-8774-4db0-8b5f-8474fdd883fd</elementGuidId>
+   <elementGuidId>55ed47e8-2b4e-4cbb-b56e-db04f0275d4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='logout_sidebar_link']</value>
+         <value>//a[@id='about_sidebar_link']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#logout_sidebar_link</value>
+         <value>#about_sidebar_link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-test=&quot;logout-sidebar-link&quot;]</value>
+         <value>[data-test=&quot;about-sidebar-link&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>60e192de-0b07-41f7-82c8-d5c6eb2d7acd</webElementGuid>
+      <webElementGuid>5550f180-5304-405b-8e88-7bc037f3baca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>logout_sidebar_link</value>
-      <webElementGuid>321a1ed3-eb56-481a-852f-fc0dfa761cc5</webElementGuid>
+      <value>about_sidebar_link</value>
+      <webElementGuid>8d071529-c427-4746-bac5-9c1204e2f445</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,126 +45,118 @@
       <name>class</name>
       <type>Main</type>
       <value>bm-item menu-item</value>
-      <webElementGuid>ff8b5a4a-c8ff-44ed-8dd5-17c216511478</webElementGuid>
+      <webElementGuid>109a34c4-b7da-4859-b80c-16d66eecdc60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>723310f1-b0c3-487d-bcc6-7b556d9b0068</webElementGuid>
+      <value>https://saucelabs.com/</value>
+      <webElementGuid>559d368d-d883-40c6-8020-68af5ea5047f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>logout-sidebar-link</value>
-      <webElementGuid>a9cee9b8-611d-42c2-a1cd-1493034b2260</webElementGuid>
+      <value>about-sidebar-link</value>
+      <webElementGuid>b264bcb8-e0f7-4bfc-b802-243c4a48981b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
-      <webElementGuid>e4a5745e-253d-42ef-8202-25a7d2ed6bd7</webElementGuid>
+      <value>About</value>
+      <webElementGuid>74facf5f-059d-456c-9810-4a4bfb4d710d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logout_sidebar_link&quot;)</value>
-      <webElementGuid>90c3a539-6376-4b22-8a45-96abb5449964</webElementGuid>
+      <value>id(&quot;about_sidebar_link&quot;)</value>
+      <webElementGuid>74189ffa-6c70-4a18-9d43-3ca47662b5f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='logout_sidebar_link']</value>
-      <webElementGuid>f6c247b6-4e04-4679-bcff-05e8d81f20a1</webElementGuid>
+      <value>//a[@id='about_sidebar_link']</value>
+      <webElementGuid>f6e47018-bcdb-43df-9930-0a4d15ac2916</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menu_button_container']/div/div[2]/div/nav/a[3]</value>
-      <webElementGuid>e75f5136-83ed-45ea-80fb-365a5b1ec305</webElementGuid>
+      <value>//div[@id='menu_button_container']/div/div[2]/div/nav/a[2]</value>
+      <webElementGuid>a50062fb-3b0b-4ab6-8426-a576275e85e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Logout')]</value>
-      <webElementGuid>ec3b1c6b-3e81-45a2-a7f4-1e387bfe32cc</webElementGuid>
+      <value>//a[contains(text(),'About')]</value>
+      <webElementGuid>6fcace76-e9b4-4320-857f-f17010019688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[1]</value>
-      <webElementGuid>95e147fc-1ba1-40b6-a059-4c2300c27df5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Menu'])[1]/following::a[2]</value>
+      <webElementGuid>280083b3-c431-4f40-8a53-d72f629998b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Menu'])[1]/following::a[3]</value>
-      <webElementGuid>13a0771d-9a3f-4610-88aa-29d22f5332dd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/preceding::a[3]</value>
+      <webElementGuid>e6f27538-34a0-47e8-abe8-bdd3a04ce6b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/preceding::a[2]</value>
-      <webElementGuid>49425e27-391f-4b58-abba-d0b1b208ebac</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/preceding::a[3]</value>
+      <webElementGuid>d69a1b08-f9a3-46c2-891c-6621c82a16a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/preceding::a[2]</value>
-      <webElementGuid>de35b47e-5a1a-42f4-8450-e97877626586</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
-      <webElementGuid>4997804f-352d-410c-bef4-2f4a33ac14b1</webElementGuid>
+      <value>//*/text()[normalize-space(.)='About']/parent::*</value>
+      <webElementGuid>d8ea2ac5-6bce-4b80-8321-0c783d1975ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[2]</value>
-      <webElementGuid>82282284-7efe-4c16-8187-b3033d593605</webElementGuid>
+      <value>//a[contains(@href, 'https://saucelabs.com/')]</value>
+      <webElementGuid>e4a76a85-25a8-4f71-8a65-5c51f4d58356</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[3]</value>
-      <webElementGuid>8e39d06c-7c20-4d80-9d8c-024de73d840f</webElementGuid>
+      <value>//a[2]</value>
+      <webElementGuid>1e60d7a6-1c60-4fb0-ab1e-f7ededbf3c5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'logout_sidebar_link' and @href = '#' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>17117af4-a202-4ec1-bb0d-01ac52d627f7</webElementGuid>
+      <value>//a[@id = 'about_sidebar_link' and @href = 'https://saucelabs.com/' and (text() = 'About' or . = 'About')]</value>
+      <webElementGuid>e5bfac76-9347-4cf1-88e9-ab9276026414</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

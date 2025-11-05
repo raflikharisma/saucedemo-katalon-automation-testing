@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Dynamic_SearchSimulation_DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f43f416-e936-4961-88e6-232f66874505</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2093f1d-094a-47ec-85f9-4cb0367bd792</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff30bd0d-a1b5-4283-95d9-7c5b3b176a56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2093f1d-094a-47ec-85f9-4cb0367bd792</id>
+      <masked>false</masked>
+      <name>searchkeyword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff30bd0d-a1b5-4283-95d9-7c5b3b176a56</id>
+      <masked>false</masked>
+      <name>expectedfound</name>
+   </variable>
+</TestCaseEntity>

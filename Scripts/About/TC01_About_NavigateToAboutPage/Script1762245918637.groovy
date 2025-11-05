@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.baseURL)
+
+WebUI.waitForElementVisible(findTestObject('Page_Login/input_username'), 10)
+WebUI.setText(findTestObject('Page_Login/input_username'), GlobalVariable.username)
+WebUI.setEncryptedText(findTestObject('Page_Login/input_password'), GlobalVariable.password)
+WebUI.click(findTestObject('Page_Login/login_button'))
+WebUI.waitForElementVisible(findTestObject('Page_Inventory/burger_button'), 10)
+WebUI.waitForElementClickable(findTestObject('Page_Inventory/burger_button'), 10)
+WebUI.click(findTestObject('Page_Inventory/burger_button'))
+
+
+WebUI.waitForElementVisible(findTestObject('Page_Inventory/a_about_sidebar_link'), 10)
+WebUI.waitForElementClickable(findTestObject('Page_Inventory/a_about_sidebar_link'), 10)
+WebUI.click(findTestObject('Page_Inventory/a_about_sidebar_link'))
+WebUI.verifyMatch(WebUI.getUrl(), 'https://saucelabs.com/', true)
+WebUI.closeBrowser()
+
