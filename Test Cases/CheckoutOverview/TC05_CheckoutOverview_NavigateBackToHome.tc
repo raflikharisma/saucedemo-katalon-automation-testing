@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CheckoutOverview_NavigateBackToHome</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>978475af-def3-4acc-9220-7ba24d50d436</testCaseGuid>
+</TestCaseEntity>

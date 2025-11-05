@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Checkout_VerifyTotalPrice</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65819f13-ef13-4eca-a0c1-5f96fa1dc5b9</testCaseGuid>
+</TestCaseEntity>

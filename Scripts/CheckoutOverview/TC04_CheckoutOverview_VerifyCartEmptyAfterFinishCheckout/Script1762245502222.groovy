@@ -22,36 +22,76 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebElement
+
+
 
 WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
+// LOGIN
 WebUI.waitForElementVisible(findTestObject('Page_Login/input_username'), 10)
 WebUI.setText(findTestObject('Page_Login/input_username'), GlobalVariable.username)
 WebUI.setEncryptedText(findTestObject('Page_Login/input_password'), GlobalVariable.password)
 WebUI.click(findTestObject('Page_Login/login_button'))
 WebUI.waitForElementVisible(findTestObject('Page_Inventory/dropdown_sorting'), 10)
+
+// ADD TO CART
 WebUI.click(findTestObject('Page_Inventory/button_add-to-cart-sauce-labs-backpack'))
 WebUI.click(findTestObject('Page_Inventory/button_add-to-cart-sauce-labs-bike-light'))
 WebUI.waitForElementVisible(findTestObject('Page_Inventory/cart_badge'), 5)
 String badge = WebUI.getText(findTestObject('Page_Inventory/cart_badge'))
 WebUI.verifyMatch(badge, '2', false)
 WebUI.comment("✅ 2 item berhasil ditambahkan ke cart (badge = ${badge})")
+
+// NAVIGATE TO CART
 WebUI.click(findTestObject('Page_Inventory/cart_badge'))
+TestObject cartNamesObj = new TestObject().addProperty('css', ConditionType.EQUALS, '.cart_item .inventory_item_name')
+List<WebElement> cartNameEls = WebUiCommonHelper.findWebElements(cartNamesObj, 10)
+List<String> cartNames = cartNameEls.collect { it.getText().trim() }
+WebUI.comment("🛒 Items in Cart: ${cartNames}")
+assert cartNames.size() == 2 : "Jumlah item di cart bukan 2. Actual: ${cartNames.size()}"
 
 WebUI.verifyElementPresent(findTestObject('Page_Cart/item_Sauce Labs Backpack'), 5)
 WebUI.verifyElementPresent(findTestObject('Page_Cart/item_Sauce Labs Bike Light'), 5)
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Cart/button_checkout'), 5)
-WebUI.click(findTestObject('Object Repository/Page_Cart/button_checkout'))
 
+// NAVIGATE TO CHECKOUT
+WebUI.click(findTestObject('Object Repository/Page_Cart/button_checkout'))
 WebUI.verifyElementPresent(findTestObject('Page_Checkout/input_checkout_first-name'), 3)
 WebUI.setText(findTestObject('Page_Checkout/input_checkout_first-name'), 'Rafli')
 WebUI.setText(findTestObject('Page_Checkout/input_checkout_last-name'), 'Kharisma')
-WebUI.setText(findTestObject('Page_Checkout/input_checkout_postal-code'), '') 
+WebUI.setText(findTestObject('Page_Checkout/input_checkout_postal-code'), '73144')    
+WebUI.waitForElementClickable(findTestObject('Page_Checkout/button_checkout_continue'), 3) 
 WebUI.click(findTestObject('Page_Checkout/button_checkout_continue'))
+WebUI.verifyMatch(WebUI.getUrl(),".*/checkout-step-two.html", true)
 
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/alert_firstname_required'), 3)
-WebUI.verifyElementText(findTestObject('Page_Checkout/alert_firstname_required'), 'Error: Postal Code is required')
+// COMPARE
+TestObject overviewNamesObj = new TestObject().addProperty('css', ConditionType.EQUALS, '.cart_item .inventory_item_name')
+List<WebElement> overviewNameEls = WebUiCommonHelper.findWebElements(overviewNamesObj, 10)
+List<String> overviewNames = overviewNameEls.collect { it.getText().trim() }
+WebUI.comment("📦 Items in Checkout Overview: ${overviewNames}")
+assert overviewNames == cartNames : "❌ Item mismatch.\nCart: ${cartNames}\nOverview: ${overviewNames}"
 
+WebUI.waitForElementClickable(findTestObject('Page_CheckoutOverview/button_checkoutoverview_finish'), 2)
+
+WebUI.click(findTestObject('Page_CheckoutOverview/button_checkoutoverview_finish'))
+WebUI.verifyMatch(WebUI.getUrl(),".*/checkout-complete.html", true)
+
+WebUI.verifyElementPresent(findTestObject('Page_CheckoutOverview/h2_checkout-complete_complete-header'), 3)
+WebUI.waitForElementClickable(findTestObject('Page_CheckoutOverview/button_back_home'), 5)
+WebUI.click(findTestObject('Page_CheckoutOverview/button_back_home'))
+WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory\\.html(\\?.*)?$', true)
+
+WebUI.click(findTestObject('Page_Inventory/a_cart_from_product'))
+WebUI.verifyMatch(WebUI.getUrl(), '.*/cart\\.html(\\?.*)?$', true)
+
+
+
+TestObject cartItems = new TestObject().addProperty('css', ConditionType.EQUALS, '.cart_item')
+def items = WebUiCommonHelper.findWebElements(cartItems, 5)
+assert items.size() == 0 : "❌ Cart masih berisi ${items.size()} item setelah finish checkout"
+
+WebUI.comment('✅ Cart kosong setelah Finish checkout')
 WebUI.closeBrowser()
 

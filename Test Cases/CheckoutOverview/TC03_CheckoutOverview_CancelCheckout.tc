@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CheckoutOverview_CancelCheckout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7d9d4c5-3d0a-47f3-9b68-1b0c884976b3</testCaseGuid>
+</TestCaseEntity>

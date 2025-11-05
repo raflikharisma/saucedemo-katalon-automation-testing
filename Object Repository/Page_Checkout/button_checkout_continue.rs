@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_checkout_continue</name>
+   <name>button_checkout_continue</name>
    <tag></tag>
    <elementGuidId>d93fc8a5-9c64-4206-84d8-3d67a3a3e968</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#continue</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='continue']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#continue</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>800be03c-57ea-46c9-9b31-8e5f3c5f1b71</webElementGuid>
+      <webElementGuid>5a750418-87be-41c9-9d10-0db73c3f403b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a86c8f05-e9a9-4d9b-9670-217d4e99de1e</webElementGuid>
+      <webElementGuid>83ec970a-2603-4725-bdcd-dafca2e20fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>submit-button btn btn_primary cart_button btn_action</value>
-      <webElementGuid>5173de69-66d8-4769-bb31-bf4f79543d21</webElementGuid>
+      <webElementGuid>2f3660ce-2f19-4cea-8215-729d1a28db8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>continue</value>
-      <webElementGuid>0236de61-83d4-422b-95a5-60cf44810484</webElementGuid>
+      <webElementGuid>80b5aa4e-01bf-4be0-8182-d12b1aa8f34f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>id</name>
       <type>Main</type>
       <value>continue</value>
-      <webElementGuid>42775c07-cb48-466b-9a0c-a353bd815eb5</webElementGuid>
+      <webElementGuid>132d859d-8b25-48f6-b5a6-9bbf466a55b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>continue</value>
-      <webElementGuid>2bb5d9f9-1b0a-4de7-8a08-a2187c826e3c</webElementGuid>
+      <webElementGuid>48690dcd-6a3f-48a2-9dcc-7fd0ff10004f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>189bc485-d888-4305-9967-eb5b49cba4ee</webElementGuid>
+      <webElementGuid>fae50e30-62d5-43c8-8318-92fa4e840bc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;continue&quot;)</value>
-      <webElementGuid>4631e1fc-5a04-4f92-a6b6-29736814cde0</webElementGuid>
+      <webElementGuid>47505565-d65b-4e47-ab4d-3d925f81ba63</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='continue']</value>
-      <webElementGuid>74f17336-8a78-466a-b843-a21e8338fcf7</webElementGuid>
+      <webElementGuid>9e42ffd3-66f1-4ffe-bc56-bab0f3616a5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='checkout_info_container']/div/form/div[2]/input</value>
-      <webElementGuid>aa3a28fd-e2cb-4208-a251-42115ab60ca6</webElementGuid>
+      <webElementGuid>488fe0f3-6bf5-4852-ac94-6c9648f057bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>c7f7d75e-3e7d-493c-8d49-d558ac8343b3</webElementGuid>
+      <webElementGuid>9b824fad-cb7c-44ab-8e1c-95898ab7acd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @id = 'continue' and @name = 'continue']</value>
-      <webElementGuid>3fe8579e-7360-49d1-8306-b137d371a8f5</webElementGuid>
+      <webElementGuid>a255a856-6414-4704-8b9d-3244290952f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

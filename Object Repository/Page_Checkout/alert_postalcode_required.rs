@@ -6,12 +6,12 @@
    <elementGuidId>b521eb29-a660-4638-9884-e994ee8836d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='checkout_info_container']/div/form/div/div[4]/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>0ac7ef99-a7d2-481d-911b-b0dc23170268</webElementGuid>
+      <webElementGuid>a144a88b-3fbe-498f-9ba5-61ce75e256b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>fae6cf6f-5962-46a0-bee5-0b6d6e20441b</webElementGuid>
+      <webElementGuid>fc324052-5d65-4ae8-bae7-2f107491d8d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Error: Postal Code is required</value>
-      <webElementGuid>f6682671-0c85-484a-a45a-0272a314bdc9</webElementGuid>
+      <webElementGuid>145ae6a2-afa1-4c17-a3f7-f13462bbc045</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkout_info_container&quot;)/div[@class=&quot;checkout_info_wrapper&quot;]/form[1]/div[@class=&quot;checkout_info&quot;]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
-      <webElementGuid>c5cafbe1-70ba-42f4-a139-2abda425c222</webElementGuid>
+      <webElementGuid>d439ee2e-e5be-4663-a427-6e97790d2074</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='checkout_info_container']/div/form/div/div[4]/h3</value>
-      <webElementGuid>110006b4-dad6-4c4e-8841-9572958527da</webElementGuid>
+      <webElementGuid>50f042d2-5551-4e22-9920-73f8c4d20b63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout: Your Information'])[1]/following::h3[1]</value>
-      <webElementGuid>72292fc3-d87b-4821-951c-a6d0f8300467</webElementGuid>
+      <webElementGuid>b560d5b3-e5d1-4c3a-9ae9-71ae59d1b214</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
-      <webElementGuid>b65c8574-3121-4ac0-a6f7-ec19772a291b</webElementGuid>
+      <webElementGuid>d4db0221-51ef-4ad8-8ec0-b15d38e8a574</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::h3[1]</value>
-      <webElementGuid>a4bad901-89fc-4e63-9d7f-d4e6a54f63d0</webElementGuid>
+      <webElementGuid>830bdc07-6a85-4a2f-a439-877119a999b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::h3[1]</value>
-      <webElementGuid>23c78eef-2ba5-4497-9751-df788ac95c72</webElementGuid>
+      <webElementGuid>cb7548d2-43b9-42fd-9d0e-dfd69eae5882</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Error: Postal Code is required']/parent::*</value>
-      <webElementGuid>9e89846a-cfb8-45d6-9c1d-25cea7379b96</webElementGuid>
+      <webElementGuid>3b8f0904-f0dd-41e1-9923-2e70d120abd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>04fa4bfc-b97e-4019-ad49-0ea177c671ab</webElementGuid>
+      <webElementGuid>4d44afd4-ef6b-4755-850d-9ad1b307978e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Error: Postal Code is required' or . = 'Error: Postal Code is required')]</value>
-      <webElementGuid>1a69a9af-ca5f-41d7-9d17-c1abf69615ec</webElementGuid>
+      <webElementGuid>b3592c63-7ed7-443a-bd38-19b619ccb922</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

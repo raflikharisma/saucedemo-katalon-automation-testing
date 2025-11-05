@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_About_NavigateToAboutPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cc5815b-e19c-40ef-9ce7-73bdda222432</testCaseGuid>
+</TestCaseEntity>

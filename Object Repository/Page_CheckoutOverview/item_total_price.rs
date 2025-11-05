@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>item_tax</name>
+   <name>item_total_price</name>
    <tag></tag>
-   <elementGuidId>1bd141cc-2543-4517-84fa-cd5e21d700c8</elementGuidId>
+   <elementGuidId>e0ce6712-0f34-4d97-a4ac-8e74992314b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.summary_tax_label</value>
+         <key>XPATH</key>
+         <value>//div[@id='checkout_summary_container']/div/div[2]/div[8]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='checkout_summary_container']/div/div[2]/div[7]</value>
+         <key>CSS</key>
+         <value>div.summary_total_label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-test=&quot;tax-label&quot;]</value>
+         <value>[data-test=&quot;total-label&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,102 +29,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b95c48b6-4ac9-4048-a7a8-5179bf2a7e20</webElementGuid>
+      <webElementGuid>56950f36-ea7b-4707-b15a-87e33c2ef70b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>summary_tax_label</value>
-      <webElementGuid>0084d0e7-af7e-44dc-88ca-dfdeef34a9aa</webElementGuid>
+      <value>summary_total_label</value>
+      <webElementGuid>dd4a61f3-2bde-4abe-8908-939921b3b1a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>tax-label</value>
-      <webElementGuid>b0e9b53d-bd71-46ab-9a71-3f8ecda03574</webElementGuid>
+      <value>total-label</value>
+      <webElementGuid>446c57f0-597e-4b15-be05-a767dda346c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tax: $3.20</value>
-      <webElementGuid>d53227b9-449e-46fc-8439-b08071588709</webElementGuid>
+      <value>Total: $43.18</value>
+      <webElementGuid>6886844b-fdd5-4385-b46f-158e08fa02c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkout_summary_container&quot;)/div[1]/div[@class=&quot;summary_info&quot;]/div[@class=&quot;summary_tax_label&quot;]</value>
-      <webElementGuid>9285a0f8-a7b0-494c-ae5e-273a80df4deb</webElementGuid>
+      <value>id(&quot;checkout_summary_container&quot;)/div[1]/div[@class=&quot;summary_info&quot;]/div[@class=&quot;summary_total_label&quot;]</value>
+      <webElementGuid>26e419b3-c239-4d0e-8125-386ec505baaf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='checkout_summary_container']/div/div[2]/div[7]</value>
-      <webElementGuid>e7db9229-d264-4f86-908c-a75f0ac85014</webElementGuid>
+      <value>//div[@id='checkout_summary_container']/div/div[2]/div[8]</value>
+      <webElementGuid>04e5123b-a01d-40ae-bde5-6faeb9fd32f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item total: $39.98'])[1]/following::div[1]</value>
-      <webElementGuid>c9648b54-6b86-4471-9dda-2dbc731e0703</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax: $3.20'])[1]/following::div[1]</value>
+      <webElementGuid>6d3d0be4-60a8-42aa-befc-3a286fb56261</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Total'])[1]/following::div[2]</value>
-      <webElementGuid>960a5b6c-0e41-45ad-8bc3-4bfa92aaafa5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item total: $39.98'])[1]/following::div[2]</value>
+      <webElementGuid>af6c54b5-2717-421b-85ac-297fbb6038c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: $43.18'])[1]/preceding::div[1]</value>
-      <webElementGuid>59eca3d3-50a5-484e-ac0a-764386b3cc68</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <webElementGuid>35d21307-d81c-4f11-a70c-c4f15bcd4fe6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[2]</value>
-      <webElementGuid>90c66db7-1b93-4507-993e-1f13e9ef3450</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/preceding::div[1]</value>
+      <webElementGuid>612b7677-f751-4f94-8dfa-d9d131ac1fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tax: $']/parent::*</value>
-      <webElementGuid>14a70009-af68-403a-83a1-11665d7c6cac</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Total: $']/parent::*</value>
+      <webElementGuid>605e1d2c-a68f-48bc-bc45-460ef43704c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]</value>
-      <webElementGuid>2ad4b99b-f90b-4bcc-bc56-29a8ecd1e062</webElementGuid>
+      <value>//div[8]</value>
+      <webElementGuid>06d5ed0e-1c14-46f8-aa91-19ee0b383629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Tax: $3.20' or . = 'Tax: $3.20')]</value>
-      <webElementGuid>39694ba7-ed23-4573-8283-3002734b50f9</webElementGuid>
+      <value>//div[(text() = 'Total: $43.18' or . = 'Total: $43.18')]</value>
+      <webElementGuid>dfbf0187-0525-4d26-872f-f3c08e4bb82e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

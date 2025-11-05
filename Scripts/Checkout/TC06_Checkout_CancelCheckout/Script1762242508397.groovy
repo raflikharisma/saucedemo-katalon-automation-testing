@@ -47,11 +47,12 @@ WebUI.click(findTestObject('Object Repository/Page_Cart/button_checkout'))
 WebUI.verifyElementPresent(findTestObject('Page_Checkout/input_checkout_first-name'), 3)
 WebUI.setText(findTestObject('Page_Checkout/input_checkout_first-name'), 'Rafli')
 WebUI.setText(findTestObject('Page_Checkout/input_checkout_last-name'), 'Kharisma')
-WebUI.setText(findTestObject('Page_Checkout/input_checkout_postal-code'), '') 
-WebUI.click(findTestObject('Page_Checkout/button_checkout_continue'))
+WebUI.setText(findTestObject('Page_Checkout/input_checkout_postal-code'), '73144')    
 
-WebUI.verifyElementPresent(findTestObject('Page_Checkout/alert_firstname_required'), 3)
-WebUI.verifyElementText(findTestObject('Page_Checkout/alert_firstname_required'), 'Error: Postal Code is required')
+
+WebUI.waitForElementClickable(findTestObject('Page_Checkout/button_checkout_continue'), 3) 
+WebUI.click(findTestObject('Page_Checkout/button_checkout_cancel'))
+WebUI.verifyMatch(WebUI.getUrl(),".*/cart.html", true)
 
 WebUI.closeBrowser()
 
